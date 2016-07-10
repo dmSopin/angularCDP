@@ -1,14 +1,14 @@
 /**
  * @ngdoc module
- * @name authentication
+ * @name search
  * @description
- * module for work with user authentication
+ * module for searching
  * @author Dmytro Sopin
  */
 (function () {
   'use strict';
 
   angular
-    .module('authentication', []);
+    .module('search', []);
 }());
 

@@ -1,14 +1,14 @@
 /**
  * @ngdoc module
- * @name authentication
+ * @name arrayHelper
  * @description
- * module for work with user authentication
+ * module that helps to work with arrays
  * @author Dmytro Sopin
  */
 (function () {
   'use strict';
 
   angular
-    .module('authentication', []);
+    .module('arrayHelper', []);
 }());
 

@@ -1,14 +1,14 @@
 /**
  * @ngdoc module
- * @name authentication
+ * @name switchSelect
  * @description
- * module for work with user authentication
+ * module for switch selecting
  * @author Dmytro Sopin
  */
 (function () {
   'use strict';
 
   angular
-    .module('authentication', []);
+    .module('switchSelect', ['arrayHelper']);
 }());
 

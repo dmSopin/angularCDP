@@ -17,6 +17,21 @@ module.exports = function(config) {
     files: [
       'node_modules/angular/angular.js',
       'node_modules/angular-mocks/angular-mocks.js',
+      'node_modules/angular-ui-router/release/angular-ui-router.js',
+      'node_modules/angular-resource/angular-resource.js',
+      'node_modules/angular-bootstrap-npm/dist/angular-bootstrap.js',
+
+      'app/components/arrayHelper/array-helper.module.js',
+      'app/components/courses/courses.module.js',
+      'app/components/fakeServer/fakeServer.module.js',
+      'app/components/modal/modal.module.js',
+      'app/components/switchSelect/switch-select.module.js',
+      'app/components/search/search.module.js',
+      'app/views/course-view/course-view.module.js',
+      'app/views/login-view/login-view.module.js',
+      'app/views/courses-view/courses-view.module.js',
+      'app/views/user-profile-view/user-profile-view.module.js',
+
       'app/**/*.js',
       'test/**/*.js'
     ],

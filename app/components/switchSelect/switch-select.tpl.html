@@ -1,0 +1,17 @@
+<label class="col-sm-4 control-label">Список авторов</label>
+<div class="col-sm-3">
+    <select class="form-control" multiple ng-model="vm.selectedAddedAuthors">
+        <option ng-repeat="author in vm.addedAuthors">{{author}}</option>
+    </select>
+</div>
+<div class="col-sm-1">
+    <input type="button" role="button" class="btn btn-success" ng-click="vm.addAuthor()" value="&lt;" ng-disabled="!vm.selectedRemovedAuthors.length || !vm.removedAuthors.length">
+    <br/>
+    <br/>
+    <input type="button" role="button" class="btn btn-warning" ng-click="vm.removeAuthor()" value="&gt;" ng-disabled="!vm.selectedAddedAuthors.length || !vm.addedAuthors.length">
+</div>
+<div class="col-sm-3">
+    <select class="form-control" multiple ng-model="vm.selectedRemovedAuthors">
+        <option ng-repeat="author in vm.removedAuthors">{{author}}</option>
+    </select>
+</div>

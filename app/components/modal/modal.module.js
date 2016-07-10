@@ -1,14 +1,14 @@
 /**
  * @ngdoc module
- * @name authentication
+ * @name modal
  * @description
- * module for work with user authentication
+ * module for using modals popup
  * @author Dmytro Sopin
  */
 (function () {
   'use strict';
 
   angular
-    .module('authentication', []);
+    .module('modal', ['ui.bootstrap']);
 }());
 

@@ -1,14 +1,14 @@
 /**
  * @ngdoc module
- * @name authentication
+ * @name userProfileView
  * @description
- * module for work with user authentication
+ * module for show user profile
  * @author Dmytro Sopin
  */
 (function () {
   'use strict';
 
   angular
-    .module('authentication', []);
+    .module('userProfileView', ['authentication']);
 }());
 

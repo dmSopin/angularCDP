@@ -1,0 +1,7 @@
+.course-item {
+    border: 1px solid #000;
+    margin: 15px 0;
+    list-style: none;
+}
+
+.course-control { margin: 10px 0; }

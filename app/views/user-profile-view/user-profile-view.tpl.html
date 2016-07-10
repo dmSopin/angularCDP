@@ -1,0 +1,4 @@
+<div class="pull-right user-profile" ng-if="vm.loginState.isAuthenticated">
+    <h5>Hello, {{vm.loginState.userName}}</h5>
+    <a href="#"  class="btn btn-success" ng-click="vm.logOut()">log out</a>
+</div>

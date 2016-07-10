@@ -1,14 +1,14 @@
 /**
  * @ngdoc module
- * @name authentication
+ * @name loginView
  * @description
- * module for work with user authentication
+ * module for login page
  * @author Dmytro Sopin
  */
 (function () {
   'use strict';
 
   angular
-    .module('authentication', []);
+    .module('loginView', ['authentication']);
 }());
 

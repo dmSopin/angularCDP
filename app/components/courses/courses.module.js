@@ -1,14 +1,14 @@
 /**
  * @ngdoc module
- * @name authentication
+ * @name courses
  * @description
- * module for work with user authentication
+ * module for CRUD operations with courses
  * @author Dmytro Sopin
  */
 (function () {
   'use strict';
 
   angular
-    .module('authentication', []);
+    .module('courses', ['ngResource']);
 }());
 

@@ -1,0 +1,16 @@
+.course-form input.ng-invalid.ng-dirty {
+    border-color: red;
+}
+
+.course-form .ng-valid.ng-dirty {
+    border-color: green;
+}
+
+.course-form select.ng-invalid.ng-dirty,
+.course-form select.ng-valid.ng-dirty {
+    border-color: #ccc;
+}
+
+.course-form .submitted.ng-invalid {
+    border-color: red;
+}
